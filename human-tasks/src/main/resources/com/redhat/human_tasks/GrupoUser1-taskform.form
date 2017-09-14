@@ -1,0 +1,39 @@
+
+<form id="1047956396">
+<property name="name" value="GrupoUser1-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="relatorio_campo1" type="InputText" id="509974728">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;campo1 (relatorio)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="relatorio/campo1"/>
+<property name="outputBinding" value="relatorio/campo1"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="relatorio_campo2" type="InputText" id="237866508">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;campo2 (relatorio)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="relatorio/campo2"/>
+<property name="outputBinding" value="relatorio/campo2"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="relatorio_campo3" type="InputText" id="130578203">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;campo3 (relatorio)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="relatorio/campo3"/>
+<property name="outputBinding" value="relatorio/campo3"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="relatorio_campo4" type="InputText" id="1926630922">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;campo4 (relatorio)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="relatorio/campo4"/>
+<property name="outputBinding" value="relatorio/campo4"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="relatorio" name="#E9E371" type="dataModelerEntry" outId="relatorio" value="com.redhat.human_tasks.Relatorio" id="relatorio"/>
+</form>
