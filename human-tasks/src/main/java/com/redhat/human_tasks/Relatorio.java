@@ -14,6 +14,8 @@ public class Relatorio implements java.io.Serializable
    private java.lang.String campo3;
    private java.lang.String campo4;
 
+   private java.lang.String nomeDoProjeto;
+
    public Relatorio()
    {
    }
@@ -58,13 +60,25 @@ public class Relatorio implements java.io.Serializable
       this.campo4 = campo4;
    }
 
+   public java.lang.String getNomeDoProjeto()
+   {
+      return this.nomeDoProjeto;
+   }
+
+   public void setNomeDoProjeto(java.lang.String nomeDoProjeto)
+   {
+      this.nomeDoProjeto = nomeDoProjeto;
+   }
+
    public Relatorio(java.lang.String campo1, java.lang.String campo2,
-         java.lang.String campo3, java.lang.String campo4)
+         java.lang.String campo3, java.lang.String campo4,
+         java.lang.String nomeDoProjeto)
    {
       this.campo1 = campo1;
       this.campo2 = campo2;
       this.campo3 = campo3;
       this.campo4 = campo4;
+      this.nomeDoProjeto = nomeDoProjeto;
    }
 
 }
