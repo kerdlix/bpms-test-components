@@ -34,6 +34,12 @@
             <parameters/>
             <name>Rest</name>
         </work-item-handler>
+        <work-item-handler>
+            <resolver>mvel</resolver>
+            <identifier>new org.jbpm.process.workitem.email.EmailWorkItemHandler("localhost","25","me@localhost","password")</identifier>
+            <parameters/>
+            <name>email</name>
+        </work-item-handler>
     </work-item-handlers>
     <environment-entries/>
     <configurations/>
