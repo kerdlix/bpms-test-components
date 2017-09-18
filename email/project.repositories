@@ -107,16 +107,16 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>clojars</id>
-        <url>http://clojars.org/repo/</url>
+        <id>fuse-public-repository</id>
+        <url>https://repo.fusesource.com/nexus/content/groups/public</url>
         <source>SETTINGS</source>
       </metadata>
     </repository>
     <repository>
       <include>true</include>
       <metadata>
-        <id>fuse-public-repository</id>
-        <url>https://repo.fusesource.com/nexus/content/groups/public</url>
+        <id>clojars</id>
+        <url>http://clojars.org/repo/</url>
         <source>SETTINGS</source>
       </metadata>
     </repository>
